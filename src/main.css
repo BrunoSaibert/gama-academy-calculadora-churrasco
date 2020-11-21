@@ -1,0 +1,40 @@
+:root {
+  --primary: #5e2e92;
+  --secondary: #763cb7;
+  --tertiary: #a379c1;
+  --contrast: #73dd3c;
+  --light: #fff;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+h2 {
+  font: 50px "Roboto", sans-serif;
+}
+
+.container {
+  background-color: var(--primary);
+}
+
+.card {
+  background-color: var(--tertiary);
+}
+
+.form-control,
+.form-control:focus {
+  background: transparent;
+  color: var(--light);
+  border: 2px solid;
+  text-align: center;
+}
+
+.btn-success,
+.btn-success:focus,
+.btn-success:hover {
+  background: var(--contrast);
+  color: var(--primary);
+  font-weight: bold;
+}
